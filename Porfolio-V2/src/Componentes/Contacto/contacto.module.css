@@ -1,0 +1,127 @@
+.h1{
+    font-size: 34px;
+    margin: 0;
+    opacity: .9;
+
+}
+
+.p{
+    font-size: 23px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 0%;
+    margin-bottom: 1.5%;
+    width: 100%;
+}
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.input{
+    font-size: 18px;
+    width: 100%;
+    padding-left: 8px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 0.5vw;
+    background: none;
+    font-family: inherit;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.inputMensaje{
+    font-size: 18px;
+    padding-left: 1%;
+    padding-top: 14px;
+    width: 100%;
+    padding-left: 8px;
+    border-radius: 0.5vw;
+    background: none;
+    font-family: inherit;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.buttonSumit{
+    background-color: black; 
+    border-radius: 0.5vw;
+    font-size: 18px;
+    color: #fff;
+    width: 100%;
+    transition: 0.5s;
+    margin-top: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+.buttonSumit:hover{
+    transition: 0.5s;
+    background-color: rgba(155, 155, 155, 0.17);
+    color: black;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 50px;
+    width: 55%;
+}
+.pLottie{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Lottie{
+    width: 90%;
+}
+
+@media (max-width:860px){
+    .div1{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .p{
+        font-size: 18px;
+        width: 100%;
+    }
+    .pLottie{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+        margin: 0;
+    }
+    .input{
+        font-size: 18px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .inputMensaje{
+        font-size: 18px;
+        padding-top: 12px;
+    }
+    .buttonSumit{
+        font-size: 18px;
+        margin-top: 12px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    
+    }
+}

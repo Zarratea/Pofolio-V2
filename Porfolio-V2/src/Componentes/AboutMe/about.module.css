@@ -1,0 +1,76 @@
+.h1{
+    font-size: 34px;
+    margin-left: 1%;
+    opacity: 0.9;
+}
+.h2{
+    font-size: 34px;
+    margin-left: 1%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    opacity: 0.9;
+}
+.h3{
+    font-size: 25px;
+    margin-left: 1%;
+    opacity: .8;
+}
+
+.p{
+    font-size: 23px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.div{
+    padding-left: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+}
+.li{
+    list-style: none;
+    font-size: 23px;
+    opacity: 0.6;
+    padding-left: 1%;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 5%;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.pLottie{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Lottie{
+    width: 45%;
+}
+
+@media (max-width:860px){
+    .div1{
+        margin: 0;
+        width: 82%;
+    }
+    .p{
+        font-size: 18px;
+    }
+    .h1{
+        font-size: 32px;
+    }
+    .pLottie{
+        flex-direction: column;
+    }
+}

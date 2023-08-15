@@ -1,0 +1,41 @@
+.divbuttons{
+    list-style-type: none; 
+    padding-left: 1%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1vw 30px;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 0.5vw;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+    text-decoration: none;
+    letter-spacing: 2px;
+    background-color: rgb(245, 250, 255);
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: rgba(53, 100, 231, 0.837);
+}
+
+.icon{
+    font-size: 50px;
+}
+
+@media (max-width:860px){
+    .icon{
+        font-size: 35px;
+    }
+}

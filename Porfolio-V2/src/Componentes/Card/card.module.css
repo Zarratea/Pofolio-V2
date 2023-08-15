@@ -1,0 +1,132 @@
+.card{
+    position: relative;
+    width: 450px;
+    height: 350px;
+}
+.face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.8s;
+    transform: perspective(600px) rotateY(0deg);
+    border: 3px solid black;
+}
+.img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.h3Face{
+    font-size: 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color:#fff;
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    transition: .5s;
+}
+.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.8s;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 5px 10px #000;
+    opacity: 0;
+}
+
+.h3back{
+    padding-left: 1%;
+    padding-top: 3%;
+    font-size: 35px;
+    margin: 5px;
+    color: black;
+}
+.p{
+    margin: 0;
+    font-size: 20px;
+    color: black;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.card:hover .face .img{
+    transition: .5s;
+    filter: blur(5px);
+}
+.card:hover .face .h3Face{
+    transition: .5s;
+    opacity: 0;
+}
+.card:hover .back{
+    transition: .5s;
+    opacity: 1;
+}
+
+
+.list{
+    flex-wrap:wrap;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-left: 10px;
+    width: 60%;
+}
+.list li{
+    margin-right: 10px;
+}
+.ulImg{
+    width: 35px;
+    height: 35px;
+}
+.button{
+    color: rgba(0, 0, 0, 0.7);
+}
+.icon{
+    width: 35px;
+    height: 35px;
+}
+
+.divUl{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.listGit{
+    list-style: none;
+    padding-right: 5%;
+    display: flex;
+}
+.listGit li{
+    margin-right: 15px;
+}
+
+@media (max-width:760px){
+    .icon{
+        width: 25px;
+        height: 25px;
+    }
+    .ulImg{
+        width: 25px;
+        height: 25px;
+    }
+    .p{
+        font-size: 17px;
+    }
+}

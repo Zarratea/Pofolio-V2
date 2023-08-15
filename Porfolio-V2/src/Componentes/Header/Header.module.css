@@ -1,0 +1,73 @@
+.h1Hola{
+    font-size: 600;
+    padding-left: 1%;
+    margin-bottom: 0cm;
+    opacity: .8;
+}
+.h1{
+    font-size: 600;
+    color: rgba(53, 100, 231, 0.837);
+    padding-left: 1%;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+
+}
+.p{
+    width: 100%;
+    font-size: 25px;
+    padding: 1%;
+    margin-top: 0cm; 
+}
+.div{
+    top:80px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100vh;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.animationContainer{
+    width: 20%;
+    height: auto;
+}
+
+.div2{
+    width: 2700px;
+}
+
+.Lottie{
+    width: 70em;
+}
+
+@media (max-width:860px){
+    .div{
+        margin: 0;
+        height: 65vh;
+        width: 82%;
+        margin-top: 200px;
+    }
+    .divlottie{
+        position: absolute;
+        transform: translate(-50%, -150%);
+        top: 50%;
+        left: 50%;
+        width: 50%;
+    }
+    .p{
+        font-size: 18px;
+    }
+    .h1Hola{
+        font-size: 35px;
+    }
+    .h1{
+        font-size: 35px;
+    }
+
+}
