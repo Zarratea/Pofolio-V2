@@ -24,7 +24,7 @@ export default function Header() {
                     loop: true,
                 }} /></h1>)}
                 {width < 860 &&(<h1 className={styles.h1}>'Mi nombre es Felipe 👋'</h1>)}
-                <p className={styles.p}>Desarrollador Full stack , apacionador por crear composiciones que sean esteticas y practicas para el entendimiento de todos los publicos. Vivo en Argentina y perfecione mis habilidades informaticas en 'SoyHenry'.</p>
+                <p className={styles.p}>Desarrollador Full stack, apasionado por crear composiciones que sean estéticas y prácticas, destinado a todo tipo de público. Vivo en Argentina y perfeccioné mis habilidades informáticas en 'SoyHenry'.</p>
                 <NavContacto/>
             </div>
            { width > 860 && (<div className={styles.Lottie}>

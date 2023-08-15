@@ -23,7 +23,7 @@ export default function Home() {
             <section className={styles.divContacto} id='contacto'>
                 <Contacto/>
             </section>
-            <footer className={styles.footer}>© 2023 (nombre de la pagina)</footer>
+            <footer className={styles.footer}>© 2023 by Felipe Zarratea</footer>
                 
                 
         </>

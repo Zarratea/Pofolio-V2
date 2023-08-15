@@ -15,9 +15,9 @@ export default function About() {
                     <Lottie animation={'about'} idcontainer={'containerAbout'}/>
                 </div>)}
                 <div>
-                    <p className={styles.p}>Comence en la programacion en el secundario , aprendiendo diagramas de flujo y c++, y retome en 2022 con cursos de python. Pero donde realice gran parte de mi aprendizaje fue en SoyHenry.</p>
+                    <p className={styles.p}>Comencé en la programación en la secundaria, aprendiendo diagramas de flujo y C++, y retomé en 2022 con cursos de Python. Pero donde realicé gran parte de mi aprendizaje fue en SoyHenry.</p>
                     <p className={styles.p}><b>Mi objetivo es crear productos que ofrezcan experiencias excepcionales, con un diseño atractivo, intuitivo y de alta calidad.</b></p>
-                    <p className={styles.p}>Estoy siempre dispuesto a aprender nuevas tecnologías y a afrontar nuevos desafíos laborales que me permitan seguir creciendo profesionalmente.</p>
+                    <p className={styles.p}>Estoy siempre dispuesto a aprender nuevas tecnologías y a enfrentar nuevos desafíos laborales que me permitan seguir creciendo profesionalmente.</p>
                 </div>
                 { width < 860 &&(<div className={styles.Lottie}>
                     <Lottie animation={'about'} idcontainer={'containerAbout'}/>

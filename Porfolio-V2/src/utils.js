@@ -6,6 +6,7 @@ import node from '../src/imagenes/node.png'
 import css from '../src/imagenes/css.png'
 import TukiMarket from '../src/imagenes/TukiMarket.png'
 import CocinaHenry from '../src/imagenes/CocinaHenry.png'
+import Porfolio from '../src/imagenes/Porfolio_V2.png'
 
 
 const projects=[
@@ -34,10 +35,10 @@ const projects=[
     {
         name:'Porfolio',
         desc:'Pagina de presentacion , aqui encontraras toda la informacion acerca de mi trayectoria y mi forma de contactarme 😊.',
-        link:null,
-        gitHub:'https://github.com/Zarratea/porfolio-zarratea',
+        link:'https://pofolio-v2-production.up.railway.app/',
+        gitHub:'https://github.com/Zarratea/Pofolio-V2',
         active:true,
-        image:null,
+        image:Porfolio,
         video:null,
         tec:[redux,react,css],
         tecnname:['Redux,React,CSS']
