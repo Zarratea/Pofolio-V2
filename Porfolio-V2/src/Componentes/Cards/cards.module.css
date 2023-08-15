@@ -2,7 +2,6 @@
     flex-wrap:wrap;
     display: flex;
     justify-content:center;
-
     gap: 40px 40px;
 }
 
@@ -22,4 +21,11 @@
     height: 100%;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+@media (max-width:860px){
+    .div1{
+        margin: 0;
+        width: 82%;
+    }
 }
