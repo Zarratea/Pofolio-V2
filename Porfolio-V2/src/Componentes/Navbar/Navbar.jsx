@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import styles from './navbar.module.css'
 import useWindowDimensions from '../Hook/hooks';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar() {
         const [activeSection, setActiveSection] = useState('home'); 
@@ -52,7 +54,7 @@ export default function Navbar() {
                 </div>
                 {width < 860 &&(
                   <div className={styles.menuButton} onClick={toggleMenu}>
-                  <button className={styles.buttonMenu}>Menu</button>
+                    <FontAwesomeIcon icon={faBars} className={styles.buttonMenu}/>
                   </div>
                 )}
                 {menuOpen && width < 860 && (
